@@ -34,8 +34,14 @@ Model is build using Keras.
 Structure of Model
   
   Layer - 1 ----- | TF_Vector of Headline + TF_cosine Similarity + TF_vector of Body |
+  
+  
   Layer - 2 ----- |  Hidden Layer | (Activation  = 'Relu')
+  
+  
   Layer - 3 ----- |  Output Layer | (Activation = "Softmax')
+  
+  
   Layer - 4 ----- |  Activated Output | (Neruos = 4)
   
 # Results
