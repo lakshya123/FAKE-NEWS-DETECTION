@@ -11,3 +11,19 @@ The relationship can be classified into four categories:
 * Body is 'unrelated' to Headline
 
 # Dataset
+
+train_bodies.csv contains {"BodyId" , "articelBody"}  as fields
+
+train_stances.csv contains {"Headline","BodyID", "Stance"} as fields
+
+Both datasets have been merged using Panda.
+
+# Text Preprocessing
+
+* 
+
+# Model
+
+* Model is a simple Multi-Perceptron Layer with a single hidden unit.
+* Model is build using Keras.
+* 
