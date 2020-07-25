@@ -42,13 +42,13 @@ Structure of Model
   Layer - 3 ----- |  Output Layer | (Activation = "Softmax')
   
   
-  Layer - 4 ----- |  Activated Output | (Neruos = 4)
+  Layer - 4 ----- |  Activated Output | (Neruons = 4)
   
 # Results
 
 The model yields a maximum accuracy of 83% for 2,000 training points. Accuracy may drop to 76% for 5,000 training points.
 
-Why Accuaracy Decreases?
+Why Accuracy Decreases?
 
 * For large training set, the size of vocabulary increases considerably and simultaneously the frequency of zeros in TF_IDF vectors also increases. Thus, finding the cosine similarity using TF_IDF is not a good idea and gives poor test results.
  
